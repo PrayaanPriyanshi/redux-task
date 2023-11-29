@@ -1,0 +1,98 @@
+.logo img{
+    float: left;
+    height: 4em;
+    width: 4em;
+}
+
+.fabicon{
+    float: right;
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    right: 0px;
+    color: black;
+    cursor: pointer;
+    /* color: black */
+}
+.cart-circle{
+    float: right;
+    right: 1.4rem;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    height: 1.2rem;
+    width: 1.2rem;
+    position: absolute;
+}
+.mid-content{
+    height: 4rem;
+    width: 20rem;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    display: flex;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    z-index: 9;
+}
+
+.mid-image{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+h5{
+    font-weight: 500;
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+.flag-img{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    margin-left: 4px;
+    
+}
+
+p{
+    display: block;
+    margin-top: 0px;
+    font-weight: 100;
+    font-size: small;
+    padding-left: 5px
+}
+.link{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+.zero{
+    float: left;
+    right: 1.7rem;
+    position: absolute;
+    top: -1.5rem;
+    color: rgb(30, 29, 29);
+}
+.main-profile{
+    margin-bottom: 30px;
+    background-color: blanchedalmond;
+}
