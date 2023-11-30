@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './navbar.css'
 import { BsCart4 } from 'react-icons/bs';
 import { BsCircle } from 'react-icons/bs'
-// import { Link } from 'react-router-dom'
+
 import { useSelector } from 'react-redux'
 import Cart from './Cart';
 const Navbar = () => {
@@ -15,15 +15,15 @@ const Navbar = () => {
 
 
     return (
-        <>
+        <div>
            
-            {/* <Link to="/cart"> */}
+         
             <div onClick={()=>setIsOpen(true)}>
                 
             <BsCart4 className='fabicon' />
                 <BsCircle className='cart-circle'/><h6 className='zero'>{cartProducts.length}</h6>
             </div>
-            {/* </Link> */}
+          
             <div className='main-profile'>
             <div className='mid-content'>
                 <div>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 
             </div>
             {isOpen && <Cart open = {isOpen} handleClicked = {handleCartClick}/>}
-        </>
+        </div>
     )
 }
 
